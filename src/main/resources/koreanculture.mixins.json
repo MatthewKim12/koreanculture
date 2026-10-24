@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.korean.culture.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockUsageItemMixin",
+    "ExampleMixin",
+    "VillagerFarmMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}

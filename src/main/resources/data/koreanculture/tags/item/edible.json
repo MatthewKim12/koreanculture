@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "koreanculture:garlic",
+    "koreanculture:mugwort",
+    "koreanculture:mugwort_and_garlic",
+    "koreanculture:red_pepper",
+    "koreanculture:red_pepper_paste",
+    "koreanculture:sesame",
+    "koreanculture:sesame_oil_bottle"
+  ]
+}

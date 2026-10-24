@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "minecraft:cooked_porkchop"
+  },
+  "result": {
+    "id": "koreanculture:bulgogi"
+  },
+  "experience": 0,
+  "cookingtime": 50
+}

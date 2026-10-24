@@ -1,0 +1,39 @@
+{
+  "parent": "koreanculture:cuisine",
+  "display": {
+    "icon": {
+      "id": "minecraft:campfire"
+    },
+    "title": "a SHU so high",
+    "description": "You perished of spiciness",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eaten": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "#koreanculture:spicy"
+        }
+      }
+    },
+    "perish": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{Health:0.0f}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["eaten"],
+    ["perish"]
+  ],
+  "rewards": {
+    "experience": 250
+  }
+}

@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "koreanculture",
+	"version": "${version}",
+	"name": "Korean Culture",
+	"description": "This mod has features that description korean cultures & more",
+	"authors": [
+		"Matthew Kim"
+	],
+    "contact": {
+        "sources": "https://github.com/MatthewKim12/koreanculture"
+    },
+	"icon": "assets/koreanculture/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.korean.culture.KoreanCulture"
+		],
+		"fabric-datagen": [
+			"net.korean.culture.KoreanCultureDataGenerator"
+		], 
+		"client": [
+			"net.korean.culture.KoreanCultureClient"
+		]
+	},
+	"mixins": [
+		"koreanculture.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

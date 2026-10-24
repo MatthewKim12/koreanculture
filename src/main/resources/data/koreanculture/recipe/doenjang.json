@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "minecraft:suspicious_stew"
+  },
+  "result": {
+    "id": "koreanculture:doenjang"
+  },
+  "experience": 10,
+  "cookingtime": 125
+}

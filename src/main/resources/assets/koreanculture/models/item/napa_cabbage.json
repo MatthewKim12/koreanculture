@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "koreanculture:block/napa_cabbage_crop-stage3"
+  }
+}

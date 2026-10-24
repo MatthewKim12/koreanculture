@@ -1,0 +1,38 @@
+{
+  "parent": "koreanculture:patriotism_start",
+  "display": {
+    "icon": {
+      "id": "koreanculture:korean_flag"
+    },
+    "title": "Patriotism Beginner",
+    "description": "Prepare for your next four years!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "koreanculture:korean_flag",
+            "count": {
+              "min": 20
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  }
+}

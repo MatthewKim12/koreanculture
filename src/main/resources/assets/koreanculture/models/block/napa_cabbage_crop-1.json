@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "koreanculture:block/napa_cabbage_crop-stage1"
+  }
+}

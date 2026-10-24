@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "///",
+    "/D/",
+    "///"
+  ],
+  "key": {
+    "/": {
+      "item": "koreanculture:red_pepper"
+    },
+    "D": {
+      "item": "koreanculture:napa_cabbage"
+    }
+  },
+  "result": {
+    "id": "koreanculture:kimchi"
+  }
+}

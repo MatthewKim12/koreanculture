@@ -1,0 +1,38 @@
+{
+  "parent": "koreanculture:patriotism_greater",
+  "display": {
+    "icon": {
+      "id": "koreanculture:korean_flag"
+    },
+    "title": "Master of Korean patriotism",
+    "description": "You can fill up a stack?!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "koreanculture:korean_flag",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

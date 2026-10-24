@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless", 
+  "category": "food", 
+  "ingredients": [
+    {
+      "item": "koreanculture:mugwort"
+    }, 
+    {
+      "item": "koreanculture:garlic"
+    }
+  ], 
+  "result": {
+    "count": 1, 
+    "id": "koreanculture:mugwort_and_garlic"
+  }
+}

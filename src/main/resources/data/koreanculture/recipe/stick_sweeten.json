@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/*/",
+    "*/*",
+    "/*/"
+  ],
+  "key": {
+    "*": {
+      "item": "minecraft:sugar"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "koreanculture:yeot_stick"
+  }
+}

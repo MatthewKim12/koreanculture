@@ -1,0 +1,31 @@
+{
+  "parent": "koreanculture:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:bowl"
+    },
+    "title": "A great cuisine",
+    "description": "A Korean dish!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#koreanculture:edible"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain"
+    ]
+  ]
+}

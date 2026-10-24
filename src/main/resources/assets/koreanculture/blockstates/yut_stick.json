@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "flipped=false": {
+      "model": "koreanculture:block/yut_stick"
+    },
+    "flipped=true": {
+      "model": "koreanculture:block/yut_stick_flipped"
+    }
+  }
+}

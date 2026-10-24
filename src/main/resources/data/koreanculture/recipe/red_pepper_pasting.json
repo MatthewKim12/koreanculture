@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "koreanculture:red_pepper"
+    },
+    {
+      "item": "koreanculture:red_pepper"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "koreanculture:sesame"
+    }
+  ],
+  "result": {
+    "id": "koreanculture:red_pepper_paste",
+    "count": 1
+  }
+}

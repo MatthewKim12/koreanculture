@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "koreanculture:item/red_pepper_paste"
+  }
+}
