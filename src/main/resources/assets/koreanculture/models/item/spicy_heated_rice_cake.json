@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "koreanculture:item/heated_rice_cake_base",
+    "layer1": "koreanculture:item/heated_rice_cake_spicy_flavor"
+  }
+}

@@ -71,6 +71,7 @@ public class ModFoodComponents {
                             new StatusEffectInstance(StatusEffects.OOZING, 200, 0),
                             0.05f
                     )
+                    .snack()
                     .build();
     public static final FoodComponent BIBIMBAP =
             new FoodComponent.Builder()
@@ -87,5 +88,21 @@ public class ModFoodComponents {
            new FoodComponent.Builder()
                     .nutrition(FoodComponents.COOKED_PORKCHOP.nutrition() * 3)
                     .saturationModifier(FoodComponents.COOKED_PORKCHOP.saturation())
+                    .build();
+    public static final FoodComponent HEATED_RICE_CAKE =
+            new FoodComponent.Builder()
+                    .nutrition(4)
+                    .saturationModifier(0.6f)
+                    .snack()
+                    .build();
+    public static final FoodComponent SPICY_HEATED_RICE_CAKE =
+            new FoodComponent.Builder()
+                    .nutrition(5)
+                    .saturationModifier(1.9f)
+                    .snack()
+                    .statusEffect(
+                            new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 1, 0),
+                            0.2f
+                    )
                     .build();
 }

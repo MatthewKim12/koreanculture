@@ -28,5 +28,7 @@
   "item.koreanculture.rice_cake": "떡",
   "item.koreanculture.bibimbap": "비빔밥",
   "item.koreanculture.bulgogi": "불고기",
-  "item.koreanculture.triple_layer_meat": "삼겹살"
+  "item.koreanculture.triple_layer_meat": "삼겹살",
+  "item.koreanculture.unflavored_heated_rice_cake": "떡볶이떡 (양념 없음)",
+  "item.koreanculture.spicy_heated_rice_cake": "떡볶이떡 (매움)"
 }

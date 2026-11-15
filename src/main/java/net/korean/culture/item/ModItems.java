@@ -77,6 +77,10 @@ public class ModItems {
             new Item(new Item.Settings().food(ModFoodComponents.BULGOGI)));
     public static final Item TRIPLE_LAYER_MEAT = registerItem("triple_layer_meat",
             new Item(new Item.Settings().food(ModFoodComponents.TRIPLE_LAYER_MEAT)));
+    public static final Item UNFLAVORED_HEATED_RICE_CAKE = registerItem("unflavored_heated_rice_cake",
+            new Item(new Item.Settings().food(ModFoodComponents.HEATED_RICE_CAKE)));
+    public static final Item SPICY_HEATED_RICE_CAKE = registerItem("spicy_heated_rice_cake",
+            new Item(new Item.Settings().food(ModFoodComponents.SPICY_HEATED_RICE_CAKE)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, KoreanCulture.id(name), item);
@@ -100,6 +104,8 @@ public class ModItems {
             entries.add(BIBIMBAP);
             entries.add(BULGOGI);
             entries.add(TRIPLE_LAYER_MEAT);
+            entries.add(UNFLAVORED_HEATED_RICE_CAKE);
+            entries.add(SPICY_HEATED_RICE_CAKE);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
             entries.add(RED_PEPPER_SEEDS);
