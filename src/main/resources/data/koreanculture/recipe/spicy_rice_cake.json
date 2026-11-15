@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "koreanculture:red_pepper_paste"
+    },
+    {
+      "item": "koreanculture:unflavored_heated_rice_cake"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "koreanculture:spicy_heated_rice_cake"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "koreanculture:rice_cake"
+  },
+  "result": {
+    "id": "koreanculture:unflavored_heated_rice_cake"
+  },
+  "experience": 0,
+  "cookingtime": 150
+}
