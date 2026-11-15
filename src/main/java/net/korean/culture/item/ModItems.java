@@ -6,6 +6,7 @@ import net.korean.culture.armor.ModArmorMaterials;
 import net.korean.culture.block.ModBlocks;
 import net.korean.culture.item.bases.LiquidFoodItem;
 import net.korean.culture.item.bases.SeedItem;
+import net.korean.culture.item.custom.KoreanFoldingFanAdvancedItem;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -81,6 +82,8 @@ public class ModItems {
             new Item(new Item.Settings().food(ModFoodComponents.HEATED_RICE_CAKE)));
     public static final Item SPICY_HEATED_RICE_CAKE = registerItem("spicy_heated_rice_cake",
             new Item(new Item.Settings().food(ModFoodComponents.SPICY_HEATED_RICE_CAKE)));
+    public static final Item KOREAN_FOLDING_FAN = registerItem("korean_folding_fan",
+            new KoreanFoldingFanAdvancedItem(new Item.Settings().component(ModDataComponents.OPEN, false)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, KoreanCulture.id(name), item);
@@ -120,6 +123,9 @@ public class ModItems {
             entries.add(HANBOK_PANTS);
             entries.add(KOREAN_SOCKS);
             entries.add(GAT_HAT);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
+            entries.add(KOREAN_FOLDING_FAN);
         });
     }
 }

@@ -30,5 +30,8 @@
   "item.koreanculture.bulgogi": "불고기",
   "item.koreanculture.triple_layer_meat": "삼겹살",
   "item.koreanculture.unflavored_heated_rice_cake": "떡볶이떡 (양념 없음)",
-  "item.koreanculture.spicy_heated_rice_cake": "떡볶이떡 (매움)"
+  "item.koreanculture.spicy_heated_rice_cake": "떡볶이떡 (매움)",
+  "tooltip.koreanculture.korean_folding_fan_open": "폈음",
+  "tooltip.koreanculture.korean_folding_fan_closed": "접음",
+  "item.koreanculture.korean_folding_fan": "부채"
 }
