@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:stripped_bamboo_block"
+    },
+    {
+      "item": "minecraft:stripped_acacia_wood"
+    },
+    {
+      "item": "minecraft:stripped_birch_wood"
+    },
+    {
+      "item": "minecraft:stripped_cherry_wood"
+    },
+    {
+      "item": "minecraft:stripped_crimson_hyphae"
+    },
+    {
+      "item": "minecraft:stripped_dark_oak_wood"
+    },
+    {
+      "item": "minecraft:stripped_jungle_wood"
+    },
+    {
+      "item": "minecraft:stripped_mangrove_wood"
+    },
+    {
+      "item": "minecraft:stripped_oak_wood"
+    },
+    {
+      "item": "minecraft:stripped_spruce_wood"
+    },
+    {
+      "item": "minecraft:stripped_warped_hyphae"
+    }
+  ],
+  "result": {
+    "id": "koreanculture:korean_paper",
+    "count": 16
+  }
+}

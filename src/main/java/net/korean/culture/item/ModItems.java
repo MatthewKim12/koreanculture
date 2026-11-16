@@ -84,6 +84,8 @@ public class ModItems {
             new Item(new Item.Settings().food(ModFoodComponents.SPICY_HEATED_RICE_CAKE)));
     public static final Item KOREAN_FOLDING_FAN = registerItem("korean_folding_fan",
             new KoreanFoldingFanAdvancedItem(new Item.Settings().component(ModDataComponents.OPEN, false)));
+    public static final Item KOREAN_PAPER = registerItem("korean_paper",
+            new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, KoreanCulture.id(name), item);
@@ -126,6 +128,9 @@ public class ModItems {
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
             entries.add(KOREAN_FOLDING_FAN);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(KOREAN_PAPER);
         });
     }
 }
