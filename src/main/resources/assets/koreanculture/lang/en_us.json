@@ -34,5 +34,6 @@
   "tooltip.koreanculture.korean_folding_fan_open": "Unfolded",
   "tooltip.koreanculture.korean_folding_fan_closed": "Folded",
   "item.koreanculture.korean_folding_fan": "Korean Folding Fan",
-  "item.koreanculture.korean_paper": "Korean Paper"
+  "item.koreanculture.korean_paper": "Korean Paper",
+  "block.koreanculture.korean_paper_door": "Korean Paper Door"
 }

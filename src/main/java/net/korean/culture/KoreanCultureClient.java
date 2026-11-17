@@ -24,5 +24,9 @@ public class KoreanCultureClient implements ClientModInitializer {
                 ModBlocks.NAPA_CABBAGE_CROP,
                 RenderLayer.getCutout()
         );
+        BlockRenderLayerMap.INSTANCE.putBlock(
+                ModBlocks.KOREAN_PAPER_DOOR,
+                RenderLayer.getCutout()
+        );
     }
 }

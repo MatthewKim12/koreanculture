@@ -4,6 +4,9 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.korean.culture.KoreanCulture;
 import net.korean.culture.block.custom.*;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockSetType;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.DoorBlock;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -37,6 +40,8 @@ public class ModBlocks {
                     .nonOpaque()));
     public static final Block NAPA_CABBAGE_CROP = registerBlock("napa_cabbage_crop",
             new NapaCabbageCropAdvancedBlock(Block.Settings.copy(RED_PEPPER_CROP)));
+    public static final Block KOREAN_PAPER_DOOR = registerBlock("korean_paper_door",
+            new DoorBlock(ModBlockSetTypes.KOREAN_PAPER, Block.Settings.copy(Blocks.OAK_DOOR)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -51,8 +56,9 @@ public class ModBlocks {
     public static void registerModBlocks() {
         KoreanCulture.LOGGER.info("Registering mod blocks for " + KoreanCulture.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(entries -> {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(YUT_STICK);
+            entries.add(KOREAN_PAPER_DOOR);
         });
     }
 }

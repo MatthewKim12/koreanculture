@@ -34,5 +34,6 @@
   "tooltip.koreanculture.korean_folding_fan_open": "폈음",
   "tooltip.koreanculture.korean_folding_fan_closed": "접음",
   "item.koreanculture.korean_folding_fan": "부채",
-  "item.koreanculture.korean_paper": "한지"
+  "item.koreanculture.korean_paper": "한지",
+  "block.koreanculture.korean_paper_door": "창호지 문"
 }

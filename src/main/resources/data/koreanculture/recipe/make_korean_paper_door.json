@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "|O|",
+    "|O|",
+    "|O|"
+  ],
+  "key": {
+    "|": {
+      "item": "minecraft:stick"
+    },
+    "O": {
+      "item": "koreanculture:korean_paper"
+    }
+  },
+  "result": {
+    "id": "koreanculture:korean_paper_door"
+  }
+}

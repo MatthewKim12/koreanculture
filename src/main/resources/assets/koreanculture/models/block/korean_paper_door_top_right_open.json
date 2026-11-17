@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "koreanculture:block/korean_paper_door_bottom",
+    "top": "koreanculture:block/korean_paper_door_top"
+  }
+}
