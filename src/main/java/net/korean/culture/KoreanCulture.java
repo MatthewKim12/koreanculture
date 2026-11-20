@@ -30,6 +30,20 @@ public class KoreanCulture implements ModInitializer {
         CompostingChanceRegistry.INSTANCE.add(ModItems.MUGWORT, 0.3f);
         CompostingChanceRegistry.INSTANCE.add(ModItems.GARLIC, 0.65f);
         CompostingChanceRegistry.INSTANCE.add(ModItems.RED_PEPPER, 0.65f);
+        CompostingChanceRegistry.INSTANCE.add(ModItems.RED_PEPPER_SEEDS, 0.3f);
+        CompostingChanceRegistry.INSTANCE.add(ModItems.SESAME, 0.3f);
+        CompostingChanceRegistry.INSTANCE.add(ModItems.RED_PEPPER_PASTE, 0.4f);
+        CompostingChanceRegistry.INSTANCE.add(ModItems.YEOT_STICK, 0.9f);
+        CompostingChanceRegistry.INSTANCE.add(ModItems.DOENJANG, 0.5f);
+        CompostingChanceRegistry.INSTANCE.add(ModItems.NAPA_CABBAGE_SEEDS, 0.3f);
+        CompostingChanceRegistry.INSTANCE.add(ModItems.NAPA_CABBAGE, 0.65f);
+        CompostingChanceRegistry.INSTANCE.add(ModItems.KIMCHI, 0.9f);
+        CompostingChanceRegistry.INSTANCE.add(ModItems.RICE_CAKE, 0.5f);
+        CompostingChanceRegistry.INSTANCE.add(ModItems.BIBIMBAP, 0.9f);
+        CompostingChanceRegistry.INSTANCE.add(ModItems.BULGOGI, 0.7f);
+        CompostingChanceRegistry.INSTANCE.add(ModItems.TRIPLE_LAYER_MEAT, 1f);
+        CompostingChanceRegistry.INSTANCE.add(ModItems.UNFLAVORED_HEATED_RICE_CAKE, 0.5f);
+        CompostingChanceRegistry.INSTANCE.add(ModItems.SPICY_HEATED_RICE_CAKE, 0.5f);
 	}
 
 	public static Identifier id(String path) {
